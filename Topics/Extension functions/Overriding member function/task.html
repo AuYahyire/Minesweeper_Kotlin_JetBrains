@@ -1,0 +1,20 @@
+<h2>Overriding member function</h2>
+<div class="step-text">
+<p>Consider the following code:</p>
+<pre><code class="language-kotlin">class Cat(var sleeping: Boolean) {
+    fun wakeUp() {
+        sleeping = false
+    }
+}
+
+fun Cat.wakeUp() {
+    this.sleeping = true
+}
+
+fun main() {
+    val cat = Cat(false)
+    cat.wakeUp()
+    println(cat.sleeping)
+}</code></pre>
+<p>The code ...</p>
+</div>

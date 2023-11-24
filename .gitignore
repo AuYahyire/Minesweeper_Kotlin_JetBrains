@@ -1,0 +1,24 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Minesweeper (Kotlin)/*
+!/Minesweeper (Kotlin)/task/
+/Minesweeper (Kotlin)/task/*
+!/Minesweeper (Kotlin)/task/src
+
+# Project exclude paths
+/Topics/Extension functions/Theory/out/
+/Topics/Extension functions/Theory/out/production/classes/
+/Topics/Random/Theory/out/
+/Topics/Random/Theory/out/production/classes/
+/Topics/Welcome to Kotlin track/Hello, Kotlin/out/
+/Topics/Welcome to Kotlin track/Hello, Kotlin/out/production/classes/
