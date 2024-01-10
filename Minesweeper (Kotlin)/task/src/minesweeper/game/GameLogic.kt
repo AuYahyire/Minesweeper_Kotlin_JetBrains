@@ -49,7 +49,7 @@ class GameLogic(private val gameState: GameState, private val gameTable: GameTab
 
     private fun adminMode() {
         do {
-            println("Action:")
+            println("Action (print values, print player, print minesCount, count displayed mines):")
             val action = readln()
             when (action) {
                 "print values" -> DisplayTable(gameState, gameState.valuesTable).printTable()
